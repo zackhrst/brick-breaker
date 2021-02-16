@@ -1,6 +1,7 @@
 
 body {
     background-color: black;
+
 }
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,24 +11,69 @@ h2 {
     background-color: black;
 
 }
+div {
+    
+    padding: 5px;
+    margin: 5px;
+  }
 .game {
     display:inline-block;
     
     width: auto;
     height: auto;
-    border: greenyellow 1px solid;
-    margin: 1px
+    border: greenyellow 10px solid;
+    
 }
 .row {
     display: table-row;
-    background-color: blue;
+   
 }
-.block {
+.redblock {
     
     background-color: red;
     border: white 1px solid;
     height: 50px;
     width: 100px;
     display: inline-block;
-    margin: 0px
+    margin: 1px
+}
+
+.yellowblock {
+
+    background-color: yellow;
+    border: white 1px solid;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    margin: 1px
+
+}
+.greenblock {
+
+    background-color: green;
+    border: white 1px solid;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    margin: 1px
+
+}
+.blueblock {
+
+    background-color: blue;
+    border: white 1px solid;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    margin: 1px
+
+}
+.blackblock {
+
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    margin: 1px
+
 }
