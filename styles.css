@@ -1,0 +1,33 @@
+
+body {
+    background-color: black;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: absolute;
+    right: 100px;
+    background-color: black;
+
+}
+.game {
+    display:inline-block;
+    
+    width: auto;
+    height: auto;
+    border: greenyellow 1px solid;
+    margin: 1px
+}
+.row {
+    display: table-row;
+    background-color: blue;
+}
+.block {
+    
+    background-color: red;
+    border: white 1px solid;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    margin: 0px
+}
